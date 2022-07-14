@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "D:\\CPP_TEST"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp"
+		}
+	}
+}
