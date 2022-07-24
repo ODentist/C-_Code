@@ -1,8 +1,5 @@
-#include<iostream>
-using namespace std;
-#define MaxSize 10 
-
-    
+#include<stdio.h>
+#define MaxSize 10   //定义表的最大长度 
 typedef struct{
 	int data[MaxSize];//用静态的"数组"存放数据元素
 	int length; //顺序表的当前长度  
@@ -17,8 +14,8 @@ void InitList(SqList &L){
 int main(){
 	SqList L;//声明一个顺序表
 	InitList(L);//初始化一个顺序表
-	for(int i=0;i<L.length;i++){
-		cout<<i<<" "<<L.data[i];
+	for(int i=0;i<MaxSize;i++){
+		printf("data[%d]=%d\n",i,L.data[i]);
 	}
 	return 0; 
 }
