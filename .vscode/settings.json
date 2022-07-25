@@ -64,7 +64,9 @@
         "map": "cpp",
         "memory_resource": "cpp",
         "optional": "cpp",
-        "string_view": "cpp"
+        "string_view": "cpp",
+        "algorithm": "cpp",
+        "string": "cpp"
     },
     "terminal.explorerKind": "external",
     "C_Cpp.errorSquiggles": "Enabled"
