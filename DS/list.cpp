@@ -27,10 +27,10 @@
 // class SeqList
 // {
 // public:
-//     SeqList(){length=0;}            
+//     SeqList(){length=0;};            
 //     SeqList(DataType a[],int n);    
-//     ~SeqList(){}                    
-//     int Length(){return length;}    
+//     ~SeqList(){};                    
+//     int Length(){return length;};    
 //     DataType Get(int i);            
 //     int Locate(DataType x);         
 //     void Insert(int i,DataType x);  
